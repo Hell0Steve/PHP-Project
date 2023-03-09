@@ -1,0 +1,92 @@
+form {
+    display: flex;
+    flex-flow: column;
+    height: 500px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 2em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 0.2em;
+}
+
+select {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 0.2em;
+}
+
+.home-button,
+[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+    border: none;
+    border-radius: 0.2em;
+    cursor: pointer;
+}
+
+.back-button {
+    margin-top: 1em;
+    text-decoration: none;
+    color: blue;
+    padding: 0.5em;
+    border-radius: 0.2em;
+}
+.home-button:hover {
+    background-color: #228b22;
+}
+[type="submit"]:hover {
+    background-color: #228b22;
+}
+
+.navigation-btns {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: auto;
+}
+
+.navigation-btns span svg {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.navigation-btns .disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.section h2 {
+    margin-bottom: 30px;
+}
+
+.section #submit {
+    margin: 50px auto;
+    text-align: center;
+}
